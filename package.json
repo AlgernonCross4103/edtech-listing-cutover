@@ -1,0 +1,17 @@
+{
+  "name": "edtech-listing-cutover",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/edtech_service.ts",
+    "test": "node --experimental-strip-types src/edtech_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
